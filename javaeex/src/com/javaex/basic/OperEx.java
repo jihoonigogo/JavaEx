@@ -11,7 +11,7 @@ public class OperEx {
 	
 
 		
-		//conditionalOperEx();
+		conditionalOperEx();
 	
 		
 	}
@@ -30,7 +30,7 @@ public class OperEx {
 		// 나머지 :fail
 		
 		String message = score >=80? "good": score >50? "pass":"fail"; 
-		// Excel 의 if 함수와 같은 방식이다.  하지만 String을 사용해서 하는줄 몰랐음.
+		// 엑셀 if 함수와 같은 방식이다.  하지만 String을 사용해서 하는줄 몰랐음.
 		
 		System.out.println("당신의 점수는 ?" + score+"점" + " 평가는 " + message);
 		
