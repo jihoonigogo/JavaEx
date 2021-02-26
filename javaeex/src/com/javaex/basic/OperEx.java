@@ -3,17 +3,15 @@ package com.javaex.basic;
 public class OperEx {
 
 	public static void main(String[] args) {
-/*
- * 
- 
-		arithOperEx();
-		logicalOperEx();
-		bitOperEx();
-		bitShiftEx();
+
+		//arithOperEx();
+		//logicalOperEx();
+		//bitOperEx();
+		//bitShiftEx();
+	
+
 		
-*/
-		
-		conditionalOperEx();
+		//conditionalOperEx();
 	
 		
 	}
@@ -24,16 +22,17 @@ public class OperEx {
 		boolean condi1 = a%2 == 0;
 		
 		String result = a%2 ==0?  "짝수 ":"홀수";
-		//System.out.println(a + "is 짝수 ?" + result);
+		System.out.println("A" + " is 짝수 ?" + result);
 		
-		int score = 40;
+		int score = 80;
 		//만약 스코어가 80이상이면 good 
 		//80 > score >50 : pass 
 		// 나머지 :fail
 		
-		String message = score >=80? "good": score >50? "pass":"fail";
+		String message = score >=80? "good": score >50? "pass":"fail"; 
+		// Excel 의 if 함수와 같은 방식이다.  하지만 String을 사용해서 하는줄 몰랐음.
 		
-		System.out.println("당신의 점수는 ?" + score + " 점수는 바로 " +message);
+		System.out.println("당신의 점수는 ?" + score+"점" + " 평가는 " + message);
 		
 		if(score >80) {
 			System.out.println("good");
@@ -51,7 +50,7 @@ public class OperEx {
 	// 비트단위 이동 << 왼쪽이동 다음에 나오는 수만큼 2의 제곱 곱하기 ?
 	// >> ㅇ른쪽 이동 수 만큼 2의 제곱 나누기
 	private static void bitShiftEx() {
-		int val = 1;
+		int val = 0b0001;
 		System.out.println(val);
 		System.out.println(Integer.toBinaryString(val <<1)); // 왼쪽으로 1비트 이동0b01 -> 0b10
 		System.out.println(Integer.toBinaryString(val <<2));
@@ -67,6 +66,10 @@ public class OperEx {
 	}
 	// 비트 연산자 ( & | ~)
 	// Int 만 적용가능하며 비트 단위의 미세조정에 사용된다.
+	
+	// & 비트 논리곱연산은 서로 1을 나타낼때만 1을 표시
+	// | 비트 논리합은 둘중 하나라도 1이 있으면 1을 표시
+	// ~ 비트 논리부정은 
 	private static void bitOperEx() {
 		
 		
@@ -96,7 +99,7 @@ public class OperEx {
 	
 	
 	
-	//비교 논리 연산 => boolean 을 뽑아냄 
+	//비교 논리 연산 => 자동적으로 boolean 을 뽑아냄 
 	private static void logicalOperEx() {
 		//비교 연ㅅ나자  ==, !=, > , >= ,< ,<=
 		
@@ -135,8 +138,8 @@ public class OperEx {
 		
 		// not 부정 v1||v2뒤집기
 
-		boolean rNot = !v1orv2; // ! (val <= 0 || val >=10)
-		System.out.println("v1orv2 논리의 부정:"+ rNot);
+		boolean vNot = !v1orv2; // ! (val <= 0 || val >=10)
+		System.out.println("v1orv2 논리의 부정:"+ vNot);
 
 		
 		
@@ -184,7 +187,7 @@ System.out.println(c);
        
        System.out.println(10.0/0 +10); // Infitiny 있으면 값은 infinity
 
-       System.out.println(0.0/0.0 +10); // Nan 숫자가아니야
+       System.out.println(0.0/0.0 +10); // Nan이 있어도 값은 NaN 숫자가아니야
        
        
       
