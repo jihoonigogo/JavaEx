@@ -57,7 +57,7 @@ stringFormatEx();
 		//%f(실수), %%(%)
 		//현재 이자율은 1.25% 입니다.
 
-		System.out.printf("현재 이자율은 %.2f 입니다%n", 1.25f);
+		System.out.printf("현재 이자율은 %.2f%% 입니다%n", 1.25f); // %.2f 는 소수점 2번째 자리까지 표기하는 부가정보임.
 		fmt = "현재 이자율은 %.2f%%입니다 %n";
 		System.out.printf(fmt, 1.25f);
 	}
