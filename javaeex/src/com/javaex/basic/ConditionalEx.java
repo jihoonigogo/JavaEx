@@ -12,8 +12,8 @@ public class ConditionalEx {
 		//switchCase();
 		//switchEx2();
 		//switchEx3();
-		aaa();
-		//ifEx4();
+		//aaa();
+		ifEx4();
 	}
 
 	/////////////////////////////////////////////////////////
@@ -256,7 +256,7 @@ public class ConditionalEx {
  
   }
   
-  /*
+  
   private static void ifEx4() {
 	  
 	  Scanner scanner = new Scanner(System.in);
@@ -276,7 +276,7 @@ public class ConditionalEx {
 	  scanner.close();
   }
   
-  */
+ 
   
   
   
