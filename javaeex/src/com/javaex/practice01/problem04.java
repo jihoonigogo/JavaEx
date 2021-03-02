@@ -6,11 +6,15 @@ public class problem04 {
 		// TODO Auto-generated method stub
 
 		int i =1;
-		
-		while(i<=10) {
-			System.out.print(i+" ");
+		while( i<=10) {
+			System.out.print(i);
 			i++;
+			for(int a= 1; a<=i; a++) {
+				System.out.print(a+"\t");
+			}
 		} 
-	}
+		
+		}
 }
+	
 

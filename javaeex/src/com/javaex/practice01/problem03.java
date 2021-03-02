@@ -13,15 +13,15 @@ public class problem03 {
 		int dan =2;
 		while(dan<=9) {
 			int num=1;
-				System.out.print(dan+"*"+num+"="+(dan*num)+" ");
-				dan++;
+				while(num<=9) {System.out.print(dan+"*"+num+"="+(dan*num)+" \n");
+			
 				num++;
-				continue;
+				
 				
 						}
-		
+				dan++;
 		
 			}
 		
-		
+	}
 	}
