@@ -134,7 +134,7 @@ private static void forGugu(){
 			int rowCount = 5;
 			for(int row =1; row<=rowCount; row++) {
 				for(int col =1; col <=row; col++) {
-					System.out.println("*");
+					System.out.print("*");
 				}
 			System.out.println();// 띄어쓰기
 			
@@ -143,6 +143,9 @@ private static void forGugu(){
 		}
 	
 	// TODO : while문으로 만들어보자
+		/*
+		 * 
+		 */
 	
 		
 		private static void sixRandom01() {
@@ -154,10 +157,14 @@ private static void forGugu(){
 			
 		}
 		
-		//조ㅑㅣㄷans aksemfdjqhrl
+		/*while 문으로 해보기
 		
-		
-		
+	        int i= 1;
+			while(i<=6){
+			System.out.println((int)(Math.random()*45)+1);
+			i++;
+			}
+		*/
 		
 		
 		}
