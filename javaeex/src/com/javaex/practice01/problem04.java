@@ -10,7 +10,7 @@ public class problem04 {
 			System.out.print(i);
 			i++;
 			for(int a= 1; a<=i; a++) {
-				System.out.print(a+"\t");
+				System.out.print("");
 			}
 		} 
 		
