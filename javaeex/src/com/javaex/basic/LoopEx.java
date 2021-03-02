@@ -13,9 +13,9 @@ public class LoopEx {
 		//continueEx();
 		//breakEx01();
 		
-		//quiz01();
+		quiz01();
 		//nestedForStar();
-		sixRandom01();
+		//sixRandom01();
 	}
 
 	private static void infLoop() {
@@ -122,7 +122,19 @@ private static void forGugu(){
 		}
 		// while문으로 작성해보자
 		
-		
+		/*int dan = 2;
+		while(dan<=9) {
+			System.out.println(dan+"단");
+			
+			int num =1;
+			while(num<=9) {
+				System.out.println(dan+"*"+num+"="+(dan*num));
+				
+num++;
+			}
+			dan++;
+		}
+		*/
 		
 	}
 	
