@@ -206,7 +206,7 @@ public class ConditionalEx {
   private static void switchEx3(){
 	
 	  String day = "TUE";
-	  String message;
+	  String message;//결과 변수
 	  // 요일변수에는 지정된 값만 들어와야함, 문자열 사용은 자제하자 enum 데이터타입으로 변경하는게 좋음.
 	  switch(day) {
 	  case "SUN" :
