@@ -13,10 +13,12 @@ private static void problem02() {
 	System.out.println("숫자를 입력하세요");
 	int num = scanner.nextInt();
 	for(int i = 1; i<=num; i++) {
-		for( int col =1; col<=i; col++)
+		for( int col =1; col<=i; col++)// 갯수를 나타냄. 
 			
-		System.out.print(i);
+		System.out.print(i); // "*" 를 넣을 시 갯수만큼의 별이 나옴.
 		System.out.println();
 	}
+	scanner.close();
 }
+
 }

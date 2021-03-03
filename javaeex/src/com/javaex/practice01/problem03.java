@@ -9,19 +9,14 @@ public class problem03 {
 
 	private static void problem03(){
 		
-		
-		int dan =2;
-		while(dan<=9) {
-			int num=1;
-				while(num<=9) {System.out.print(dan+"*"+num+"="+(dan*num)+" \n");
-			
-				num++;
-				
-				
-						}
-				dan++;
-		
+		for(int a=1; a<=9;a++) {
+			for(int b=2; b<=9; b++) {
+				System.out.print(b+"*"+a +"="+(b*a));
+				System.out.print(" ");
 			}
+			System.out.println();
+		}
 		
 	}
 	}
+
