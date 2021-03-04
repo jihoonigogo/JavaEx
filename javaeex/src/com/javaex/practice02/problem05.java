@@ -13,7 +13,7 @@ public class problem05 {
 				{89,83,93,94,78}
 		};
 		int sum =0;
-		int avg=0;
+		int count=0;
 		for(int row =0; row<scoreboard.length;row++) {//행
 			
 		
@@ -21,12 +21,12 @@ public class problem05 {
 				if(scoreboard[row][col]>=85) {
 					sum += scoreboard[row][col];
 					
-					avg = (sum/13);
+					count++;
 				}
 			}
 			
 		}System.out.println("85점 이상의 총합은"+ sum);
-		System.out.println("85점 이상의 평균은"+ avg);//모르겠다 갯수 어떻게 세 ~~
+		System.out.printf("85점 이상의 평균은 %.2f%n",((double)sum/count));//모르겠다 갯수 어떻게 세 ~~
 		
 	}
 
