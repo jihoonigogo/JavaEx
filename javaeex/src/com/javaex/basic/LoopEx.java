@@ -2,8 +2,8 @@ package com.javaex.basic;
 
 import java.util.Scanner;
 
-public class LoopEx {
-
+public class LoopEx {//ㅇ인스턴스를 생성하지 않고도  메인을 실행할수있어야함 
+	
 	public static void main(String[] args) {
      //whileEx01();
      //whilegugu();
