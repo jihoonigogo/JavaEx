@@ -10,8 +10,9 @@ public class ArrayEx {
 		//twodimens();
 //arrayBasic();
 }
-	//count를 사용하지 않고 배열 출력
 	
+	
+	//count를 사용하지 않고 배열 출력
 	private static void EnhancFor() {
 		char vowels[] = {'a','b','c','d','e'};
 		for( char vowel : vowels){
@@ -19,6 +20,8 @@ public class ArrayEx {
 		}
 		
 	}
+	
+	
 	//배열복사 시스템객체이용
 	private static void arrayCopySystem() {
 		int source[]= {1,2,3};

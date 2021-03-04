@@ -10,8 +10,8 @@ public class problem06 {
 		System.out.println("숫자를 입력하세요");
 		int a = scanner.nextInt();
 		int result =0;
-		if (a%2==0) {
-			for(int i =2; i<=a;i++) {
+		if (a%2==0) { //int startNum = (num%2==0)? 2:1;
+			for(int i =2; i<=a;i++) { // i++ 2번보다 i+=2도 된다
 				result += i;
 				i++;
 			}
@@ -23,6 +23,7 @@ public class problem06 {
 			System.out.println(result);
 				
 			}
+		scanner.close();
 		}
 		
 		}

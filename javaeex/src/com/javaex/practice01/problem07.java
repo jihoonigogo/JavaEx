@@ -35,4 +35,6 @@ public class problem07 {
 		
 	}
 	}
-
+/* 교수님 풀이 
+ * 
+ * */
