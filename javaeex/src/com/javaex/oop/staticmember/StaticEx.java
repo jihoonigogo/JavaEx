@@ -12,7 +12,7 @@ public class StaticEx {
 	//  : static에서 
 	public String instanceVar;
 	
-	//static 영역 초기화는 스탵ㄱ 블록에서만 가능함.
+	//static 영역 초기화는 스태틱 블록에서만 가능함.
 	//클래스가 로드 될때 단 한버남ㄴ 실행
 	static {
 		refCount =0;
@@ -24,6 +24,7 @@ public class StaticEx {
 	//생성자
 	public StaticEx() {
 		refCount++; //인스턴스 영역에서 스태틱 영역으로 ??가 가능하다.
+		//인스턴스를 생성하면서 참조 카운트를 한개씩 늘려나감. 이 생성자는 인스턴스를 생성하는 거임 ?
 		System.out.println("=> instance 생성");
 		System.out.println("=> 참조count :"+ refCount);
 
