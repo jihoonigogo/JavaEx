@@ -16,7 +16,7 @@ public class Circle extends Shape {
 	public void draw() {
 		// TODO Auto-generated method stub
 		System.out.printf(
-				"원[x=%d, y=%d, r=%.1f, area = %.1f]을 그렸습니다 . %n",
+				"원[x=%d, y=%d, r=%.1f, area = %.2f]을 그렸습니다 . %n",
 				x,y,radius,area());
 	}
 

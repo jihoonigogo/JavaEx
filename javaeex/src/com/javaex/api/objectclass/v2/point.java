@@ -28,7 +28,7 @@ public class point {
 		if(obj instanceof point) { // obj가 어디서 왓는지.
 			//오브젝트 캐스팅임
 		point other = (point)obj;
-		return this.x ==other.x && this.y ==other.y; // 내가 갖고 있는 값이 밖에서 온것과 같은지.
+		return this.x ==other.x && this.y ==other.y; // 내가 갖고 있는 값(x,y)이 밖에서 온것(other)과 같은지.
 	}else {
 		//다른 비교방법은 정의가 안된다. 그냥
 		return super.equals(obj);

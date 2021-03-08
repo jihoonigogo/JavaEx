@@ -15,8 +15,7 @@ public class point {
 		this.y= y;
 	}
 
-	//객체를 출력하거나 문자열과 반환할때 반환되는 무나열 형태임
-	
+	//객체를 출력하거나 문자열과 반환할때 반환되는 메서드	
 	@Override
 	public String toString() {
 

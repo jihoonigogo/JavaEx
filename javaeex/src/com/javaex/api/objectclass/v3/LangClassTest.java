@@ -15,6 +15,7 @@ public class LangClassTest {
 		p2.setY(30);
 		
 		System.out.println("p1 =>"+ p1); //이걸 이해해야함
+		System.out.println("p2 =>"+ p2);
 
 		
 		System.out.println("================");

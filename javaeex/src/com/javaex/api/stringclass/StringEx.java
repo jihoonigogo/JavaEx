@@ -4,9 +4,50 @@ public class StringEx {
 
 	public static void main(String[] args) {
 	//	stringBasic();
-		usefulMethods();
+		//usefulMethods();
+		stringBufferEx();
+		
 	}
 	
+	
+		private static void stringBufferEx() {
+		//string은 변하지 앟는 객체에 비하여 stringbuffer는 내부 데이터를 변경할 수 있따.
+			
+			StringBuffer sb = new StringBuffer("this");
+			
+			//문자열 뒤에연결 : append
+			sb.append(" is pencil");
+			
+			//중간에 삽입하기
+			sb.insert(8, "my");
+			
+			//대체하기
+			sb.replace(8, 10, "your ");
+			
+			
+			System.out.println(sb); //새 객체가 새로 생성되는게 아니라..
+			
+			//set length 버퍼의 길이 변경하기
+			sb.setLength(10);
+			
+			System.out.println(sb);
+			
+			//메서드 체이닝 기법
+			String s = new StringBuffer("this")
+					.append(" is Sparta!")
+					.insert(9, "reall?")
+					.toString();
+			
+			System.out.println(s);
+			
+			//문자열
+			//String s2 = " i like Java";
+			
+
+			
+			
+			
+		}
 	 	private static void 		usefulMethods() {
 	 		String source = "Java Programming, JavaScript Programming";
 	 		System.out.println("원본:" + source);
