@@ -3,6 +3,13 @@ package com.javaex.io;
 import java.io.File;
 import java.io.IOException;
 
+
+//파일 클래스 
+//파일의 정보를 확인
+//파일과 디렉터리 생성 및 삭제는 할수있지만
+//실제 파일의 내용을 기록하는 것은 stream이라는 객체에서 담당한다.
+
+
 public class FileClassEx {
 
 	private static String rootPath = System.getProperty("user.dir") + "\\files\\";
