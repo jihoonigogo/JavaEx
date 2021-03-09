@@ -28,7 +28,7 @@ public class Member implements Comparable{
 		// 비교대상파라미터 o이 member여야 가능.
 		if (o instanceof Member) {
 		 Member other = (Member)o;
-		 return name.compareTo(other.name); // 
+		 return this.name.compareTo(other.name); // 
 		}
 		return 0;
 	}

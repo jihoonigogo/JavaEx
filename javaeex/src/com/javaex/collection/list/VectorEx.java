@@ -1,4 +1,4 @@
-package com.javaex.api.collection.list;
+package com.javaex.collection.list;
 
 import java.util.Enumeration;
 import java.util.Vector;
