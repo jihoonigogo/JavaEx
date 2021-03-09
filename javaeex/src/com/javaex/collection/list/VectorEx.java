@@ -53,8 +53,9 @@ public class VectorEx {
 			Integer item = v.elementAt(i);	
 			System.out.print(item  + " ");
 		}System.out.println("");
+		
 
-		//enhanced for (비권장) 배열의 경우에는 괜찮음. 
+		//내부 객체 출력 enhanced for (비권장) 배열의 경우에는 괜찮음. 
 		// vector의 경우에는 
 		for ( Integer item : v) {
 			System.out.print(item + " ");

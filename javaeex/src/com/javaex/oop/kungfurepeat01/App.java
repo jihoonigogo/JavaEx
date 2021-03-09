@@ -34,7 +34,7 @@ public class App {
 
 	public static void fight(Animal actor) {
 		if(actor instanceof KungfuSkill) {
-			((KungfuSkill).actor).kungfu();
+			//actor = (KungfuSkill).kungfu();
 		}
 		
 	}
