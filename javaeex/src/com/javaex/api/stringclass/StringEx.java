@@ -3,7 +3,7 @@ package com.javaex.api.stringclass;
 public class StringEx {
 
 	public static void main(String[] args) {
-	//	stringBasic();
+		//stringBasic();
 		//usefulMethods();
 		stringBufferEx();
 		
@@ -14,19 +14,24 @@ public class StringEx {
 		//string은 변하지 앟는 객체에 비하여 stringbuffer는 내부 데이터를 변경할 수 있따.
 			
 			StringBuffer sb = new StringBuffer("this");
-			
+			System.out.println(sb.length());
 			//문자열 뒤에연결 : append
-			sb.append(" is pencil");
-			
+			sb.append(" is pencil"); //10개
+			System.out.println(sb.length());
+
 			//중간에 삽입하기
-			sb.insert(8, "my");
-			
+			sb.insert(8, "my");//2개
+			System.out.println(sb.length());
+			System.out.println(sb.substring(3));
+
 			//대체하기
 			sb.replace(8, 10, "your ");
-			
+			System.out.println(sb.length());
+
 			
 			System.out.println(sb); //새 객체가 새로 생성되는게 아니라..
-			
+			System.out.println(sb.length());
+
 			//set length 버퍼의 길이 변경하기
 			sb.setLength(10);
 			
@@ -35,7 +40,7 @@ public class StringEx {
 			//메서드 체이닝 기법
 			String s = new StringBuffer("this")
 					.append(" is Sparta!")
-					.insert(9, "reall?")
+					.insert(0, "really? ")
 					.toString();
 			
 			System.out.println(s);
@@ -112,12 +117,14 @@ public class StringEx {
 			
 			System.out .println( "s1 과 s2가 같은 객체 ?"+ (s1==s2));
 			System.out .println( "s1 과 s3가 같은 객체 ?"+ (s1==s3));
-		//	System.out .println( "s2 과 s3가 같은 객체 ?"+ (s2==s3));
+			System.out .println( "s2 과 s3가 같은 객체 ?"+ (s2==s3));
 
 			char letters[] = {'J','a','v','a'};
 			String s4 =new String(letters);
+			System.out.println("s4 = " + s4);
 			
 			String s5 = String.valueOf(3.14159f);
+			
 			System.out.println("s5 = "+ s5);
 			}
 	}

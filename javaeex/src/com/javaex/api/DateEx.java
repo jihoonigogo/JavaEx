@@ -76,15 +76,17 @@ public class DateEx {
 		default:
 			dowStr = "?";
 		}
-		
+		System.out.println( dowStr);
 	}
 	//날짜 시간
 	private static void dateClassEx () {
 		
 	 Date now = new Date();
-	 System.out.println("현졔 : " + now);
+	 System.out.println("현재 : " + now);
+	 //==System.out.println(now.toString());
 	 
 	 //출력 포맷의 변경
+	 // DateFormat 변수 = DateFormat.getInstance(DateFormat:FULL/ LONG /MEDIUM/SHORT)
 	 DateFormat df = DateFormat.getDateInstance(DateFormat.FULL);
 	 System.out.println("FULL : "+ df.format(now));
 	 df = DateFormat.getDateInstance(DateFormat.LONG);

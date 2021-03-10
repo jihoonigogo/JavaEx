@@ -11,7 +11,7 @@ public class LangClassTest {
 		//Object가 갖고 있는 메서드 . 
 		//hashCode(); 정수형 개체 식별 정보 메모리 주소값
 		//getClass.getName(); 클래스 주소
-		//ㄴ   "문자열" + p
+		// "문자열" + p
 		
 		System.out.println(p1.getClass()); //p의 객체정보
 		System.out.println(p1.getClass().getSimpleName()); // 클래스 정보를 문자열로

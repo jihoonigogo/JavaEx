@@ -8,11 +8,11 @@ import java.util.Comparator;
 public class ArraysEx {
 
 	public static void main(String[] args) {
-		//arrayCopyEx();
+		arrayCopyEx();
 		//basicSortAsc();
 		//basicSortDesc();
 		//customClassSort();
-		basicSearch();
+		//basicSearch();
 		//customClassSearch();
 	}
 	//사용자 정의클래스
@@ -98,6 +98,7 @@ public class ArraysEx {
 		
 		char[] src = "Java Programming".toCharArray();
 		System.out.println("원본 : "+ Arrays.toString(src));
+		System.out.println(src);
 		
 		//시스템을 이용한 복사
 		char target[] = new char[src.length];

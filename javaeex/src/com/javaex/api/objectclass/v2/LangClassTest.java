@@ -17,7 +17,7 @@ public class LangClassTest {
 		System.out.println("p1 이랑 p2는 같은 객체 일까 ?"+ (p1==p2)); // 주소 비교
 		System.out.println("p1 이랑 p2는 같은 값 일까 ?"+ p1.equals(p2)); // 값 비교 
 		System.out.println("p2 이랑 p3는 같은 값 일까 ?"+ p2.equals(p3)); // 값 비교 
-		System.out.println("p2 이랑 p3는 같은 값 일까 ?"+ (p2==p3)); // 값 비교 
+		System.out.println("p2 이랑 p3는 같은 값 일까 ?"+ (p2==p3)); // 주소 비교  F
 
 		// 값이 다른 이유는 ?  비교 방법을 자바에게 알려주지 않아서 !!
 	}

@@ -7,7 +7,7 @@ public class BoxApp {
 	   //generic 설계된 클래스는 
 	   //new 인스턴스화 할때 내부 데이터 타입을 지정한다 .
 	   
-	   GenericBox<Integer> intBox = new GenericBox<Integer>(); // 앞이나 뒤의 템플릿문자 하나만있어도 된다	
+	   GenericBox<Integer> intBox = new GenericBox<>(); // 앞이나 뒤의 템플릿문자 하나만있어도 된다	
 	
 	   GenericBox<String> strBox	 = new GenericBox<>(); //문자열 객체만 담김
 	   
@@ -22,6 +22,7 @@ public class BoxApp {
 	   System.out.println("제네릭을 이용한 intBox: "+ retVal);
 	   System.out.println("제네릭을 이용한 strBox: "+ retStr);
 
-	
+	   System.out.println(retVal+ retStr);
+
 	}
 }
