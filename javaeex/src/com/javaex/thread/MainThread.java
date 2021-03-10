@@ -7,7 +7,10 @@ public class MainThread {
 		Thread thread = new DigiThread();
 		thread.setName("DigiThread");
 		//스레드 시작
-		thread.start();
+		thread.start(); //start 내에서 run을 대신 수행하는 것
+		
+		//주의
+		// thread.run(); // run 메서드를 일반 메서드로 run을 수행한것..
 			//메인과 다른 별로의 작업 흐름 만들기  digital thread 1~30카운트
 		for(char ch= 'A'; ch<='Z';ch++) {
 			System.out.println("Main thread : " + ch);
