@@ -13,7 +13,7 @@ public class StringTokenizerEx {
     //static final String target = rootPath + "thieves"
 	public static void main(String[] args) {
 		//메인 스트림 
-		Reader reader = null; // 텍스트라서 리더 가져오기
+		Reader reader = null; // 텍스트라서 리더 가져오기 read는 -1 , readline null
 		//보조스트림 
 		BufferedReader br = null;
 		
