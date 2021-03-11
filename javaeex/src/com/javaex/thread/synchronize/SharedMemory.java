@@ -7,12 +7,12 @@ public class SharedMemory {
 
 	//getter setter
 	public int getMemory() {
-		return memory;
+		return memory;//★★★★★★★★★★★★★★★★
 	}
 
 	//★임계 영역★ : 여러곳에서 동시에 사용하면 안되는 영역 ! - >synchronized로 막아야함.
 	// 사용이 끝날때까지 메서드가 잠긴다.★
-	public synchronized void setMemory(int memory) {
+	public synchronized void setMemory(int memory) { //★★★★★★★★★신디사이저 선언
 		this.memory = memory;
 		try {
 			Thread.sleep(1000); //1초 대기

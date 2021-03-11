@@ -1,12 +1,14 @@
 package com.javaex.thread.synchronize;
 
-public class User extends Thread {
+public class User extends Thread { //Thread 의 서브클래스 
 
+	//필드
 	private SharedMemory memory;
 	private int data;
+	
 	//생성자
 	public User(String name,SharedMemory memory ,int data) {
-		this.setName(name);//스레드 이름
+		this.setName(name);//스레드 이름★★★★★★★★★★★★★★★★★★★★
 		this.memory = memory; //공유 객체
 		this.data = data;
 		

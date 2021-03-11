@@ -16,7 +16,7 @@ public class FileClassEx {
 	public static void main(String[] args) {
 
 		//file객체 생성 
-		File root = new File(rootPath);
+		File root = new File(rootPath);//파일이 담겨있는 객체의 주소
 		//파일이 존재하는 지 확인
 		System.out.println(rootPath + " : " + root.exists()); // 파일이 존재하니 ?
 		//a 만약 디렉터리가 존재하지 않는다면 

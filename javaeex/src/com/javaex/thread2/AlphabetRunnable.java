@@ -1,6 +1,6 @@
 package com.javaex.thread2;
 //멀티 스레드 작동방법2
-//run 메서드만 구현하고 thread의 생성자로 전달
+//run 메서드만 구현하고 thread의 생성자의 파라미터로 전달
 public class AlphabetRunnable implements Runnable { //상속이 아님
 
 	@Override

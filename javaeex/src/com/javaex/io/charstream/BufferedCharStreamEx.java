@@ -35,7 +35,7 @@ public class BufferedCharStreamEx {
 		String line  = null;
 		System.out.println("");
 		while((line = br.readLine()) != null) {
-			System.out.println(line  );
+			System.out.println(line);
 		}
 	}catch(FileNotFoundException e) {
 		System.err.println("파일을 찾지 못했ㅇ요");

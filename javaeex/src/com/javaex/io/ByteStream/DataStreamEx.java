@@ -26,8 +26,8 @@ public class DataStreamEx {
 			is = new FileInputStream(filename); 
 			dis = new DataInputStream(is);
 			
-			for(int i =0; i<2 ; i++) { //2쌍의 데이터 불러오기 홍길동김길동
-				//순서대로 타입을 불러와야함
+			for(int i =0; i<2 ; i++) { //i쌍의 데이터 불러오기 홍길동김길동
+				//순서대로 타입을 불러와야함, 기본 데이터타입별 변수를 정해서 값을 넣어줌.
 				String s = dis.readUTF(); //문자열불러오기
 				Boolean b = dis.readBoolean(); // 불린불러오기
 				int val = dis.readInt();

@@ -41,9 +41,10 @@ public class BufferedCharStreamEx2 {
 			//소문자일수도 대문자일수도 있어서 둘중 하나의 형태를 정해놓아야함 .
 			if(line.toLowerCase().contains("leaf")||
 					line.toLowerCase().contains("leaves")) {
-				System.out.println(line  );
+				System.out.println(line);
 				bw.write(line);//
 				bw.newLine();// 개행 출력
+				//System.out.println(line);
 			}
 		}
 		System.out.println("필터링 완료");
