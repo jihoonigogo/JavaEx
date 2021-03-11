@@ -42,7 +42,7 @@ public class Server {
 			//수신한 메세지 읽어오기 
 			String message ; //메세지를 저장할 곳 
 			while(true) {
-				message = br.readLine(); // ????
+				message = br.readLine(); // ???? 메세지를 한줄단위로 읽음.
 				if(message == null) {//더이상 읽을 메세지가 없음.
 					System.out.println( "SERVER : 접속을 종료합니다. (잔여 메세지 없음)");
 					break;
